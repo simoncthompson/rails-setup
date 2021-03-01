@@ -29,6 +29,7 @@ rails generate simple_form:install --bootstrap
 rails generate devise:install
 rails g pundit:install
 rails active_storage:install
+rails webpacker:install:stimulus
 ```
 
 ## Add these to your configs
